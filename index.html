@@ -201,8 +201,7 @@ http://www.templatemo.com/free-website-templates/406-flex
                             <img src="images/florita.jpg" />
                         </div>
                         <!-- /.service-icon -->
-                        <div class="service-content canhomelody_open
-">
+                        <div class="service-content canhoflorita_open">
                             <div class="inner-service">
                                 <h3>Florita Q7</h3>
                                 <p><b>Vị trí: </b>Toạ Lạc trong khu Biệt Thự căn hộ CAO CẤP HIM LAM đối diện Lotte Mart Q7, chỉ mất 5-7 phút là đến ngay các quận Trung Tâm TP như: Q1, 7, 4, 8, 5, 10, 3</p>
@@ -223,7 +222,7 @@ http://www.templatemo.com/free-website-templates/406-flex
                             <img src="images/skycenter.jpg" />
                         </div>
                         <!-- /.service-icon -->
-                        <div class="service-content">
+                        <div class="service-content canhoskycenter_open">
                             <div class="inner-service">
                                 <h3>Sky Center</h3>
                                 <p><b>Vị trí: </b>Toạ lạc ngay mặt tiền Phổ Quang F2 Trung Tâm Q. Tân Bình cách san bay TÂN SƠN NHẤT chỉ 3 phút, Q1 10 phút</p>
@@ -581,6 +580,7 @@ http://www.templatemo.com/free-website-templates/406-flex
         <!-- /.container -->
     </div>
     <!-- /#footer -->
+    <!-- ============================= END ===================== -->
     <script src="js/vendor/jquery-1.11.0.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')
@@ -797,21 +797,10 @@ http://www.templatemo.com/free-website-templates/406-flex
             </div>
         </div>
     </div>
-
-
-
     <!-- =========================== FLORITA ========================== -->
-    
-
-
-
-
-
-
-    <!--  ========================== MELODY AU CO ===================== -->
-    <div id="canhomelody" class="well services-details">
+    <div id="canhoflorita" class="well services-details">
         <div class="close-button">
-            <button type="button" class="btn btn-default canhomelody-vt_close" aria-label="Left Align">
+            <button type="button" class="btn btn-default canhoflorita_close" aria-label="Left Align">
                 <i class="fa fa-times"></i>
             </button>
         </div>
@@ -916,11 +905,40 @@ http://www.templatemo.com/free-website-templates/406-flex
             </div>
         </div>
     </div>
-    <div id="fadeandscale2" class="well">
-        <h4>Fade &amp; scale example 2</h4>
-        <button class="fadeandscale_close slide_open btn btn-default">Next example</button>
-        <button class="fadeandscale_close btn btn-default">Close</button>
+    <!--  ========================== MELODY AU CO ===================== -->
+    <!--  ========================== SKY CENTER ===================== -->
+    <div id="canhoskycenter" class="well services-details">
+        <div class="close-button">
+            <button type="button" class="btn btn-default canhoskycenter_close" aria-label="Left Align">
+                <i class="fa fa-times"></i>
+            </button>
+        </div>
+        <div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#canhoskycentertap1" aria-controls="home" role="tab" data-toggle="tab">Thông Tin</a></li>
+                <li role="presentation"><a href="#canhoskycentertap2" aria-controls="profile" role="tab" data-toggle="tab">Vị Trí</a></li>
+                <li role="presentation"><a href="#canhoskycentertap3" aria-controls="messages" role="tab" data-toggle="tab">Tiện Ích</a></li>
+                <li role="presentation"><a href="#canhoskycentertap4" aria-controls="settings" role="tab" data-toggle="tab">Mặt bằng</a></li>
+                <li role="presentation"><a href="#canhoskycentertap5" aria-controls="settings" role="tab" data-toggle="tab">Hình Ảnh</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="canhoskycentertap1">
+                </div>
+                <div role="tabpanel" class="tab-pane" id="canhoskycentertap2">
+                </div>
+                <div role="tabpanel" class="tab-pane" id="canhoskycentertap3">
+                </div>
+                <div role="tabpanel" class="tab-pane" id="canhoskycentertap4">
+                </div>
+                <div role="tabpanel" class="tab-pane" id="canhoskycentertap5">
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- ========================== END POP UP =========================== -->
+
     <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
     <!-- Include jQuery Popup Overlay -->
     <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.10/jquery.popupoverlay.js"></script>
@@ -930,17 +948,18 @@ http://www.templatemo.com/free-website-templates/406-flex
         // Initialize the plugin
         $('#canhomelody').popup({
             pagecontainer: '.container',
-
             transition: 'all 0.3s'
         });
         $('#canhomelody-vt').popup({
             pagecontainer: '.container',
-
             transition: 'all 0.3s'
         });
-        $('#fadeandscale2').popup({
+        $('#canhoflorita').popup({
             pagecontainer: '.container',
-
+            transition: 'all 0.3s'
+        });
+        $('#canhoskycenter').popup({
+            pagecontainer: '.container',
             transition: 'all 0.3s'
         });
 
