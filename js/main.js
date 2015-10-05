@@ -1,6 +1,25 @@
-function processPopUpContent(jsonData) {
-  var node = document.getElementById('canhoskycentertap1');
-  node.innerHTML = "<p>"+jsonData.project[0].data[0].info[0].text+"</p>"
+var jsonData;
+
+function processPopUpContent(product) {
+
+    for (var i = 0; i < jsonData.project.length; i++) {
+        console.log(jsonData.project[i].name == product);
+        if (jsonData.project[i].name == product) {
+            var node = document.getElementById('canhoskycentertap1');
+            node.innerHTML = jsonData.project[i].data[0].info[0].text;
+            node = document.getElementById('canhoskycentertap2');
+            node.innerHTML = jsonData.project[i].data[0].position[0].text;
+            node = document.getElementById('canhoskycentertap3');
+            node.innerHTML = jsonData.project[i].data[0].services[0].text;
+            node = document.getElementById('canhoskycentertap4');
+            node.innerHTML = jsonData.project[i].data[0].flat[0].text;
+            node = document.getElementById('canhoskycentertap5');
+            node.innerHTML = jsonData.project[i].data[0].galary[0].text;
+            break;
+        }
+    };
+
+
 }
 
 
@@ -20,9 +39,9 @@ function loadJSON(callback) {
 function init() {
     loadJSON(function(response) {
         // Parse JSON string into object
-        var actual_JSON = JSON.parse(response);
-        console.log(actual_JSON);
-        processPopUpContent(actual_JSON);
+        jsonData = JSON.parse(response);
+        console.log(jsonData);
+        // processPopUpContent("");
     });
 }
 
