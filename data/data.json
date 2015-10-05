@@ -1,0 +1,55 @@
+{
+    "project": [{
+        "name": "melody-vt",
+        "data": [{
+            "info": [{
+                "text": "VŨNG TÀU MELODY: \"TẬN HƯỞNG CUỘC SỐNG TRONG LÀNH BÊN BIỂN\""
+            }],
+            "position": [{
+                "text": "Vị trí Căn Hộ tọa lạc ngay ngã 3 GỐC Hoàng Hoa Thám & Võ Thị Sáu là con đường kết nối NGẮN NHẤT giữa BÃI TRƯỚC và TT BÃI SAU hoàn toàn lý tưởng cho cuộc sống THÀNH PHỐ BIỂN, với thời gian đi bộ chỉ 5 phút đến BÃI SAU,với 4 mặt VIEW BIỂN thoáng mát nằm ngay trung tâm Thành phố nên \"VŨNG TÀU MELODY\" sẽ là địa điểm nghỉ dưỡng mơ ước cho tất cả khách hàng tại căn hộ. <br/> Tọa lạc ngay trung tâm thành phố biển xinh đẹp nên cư dân <strong>Vung Tau Melody</strong> dễ dàng tiếp cận: bến tàu cánh ngầm, TTTM Imperial Plaza, siêu thị Lotte Mart, siêu thị Co.op Mart, siêu thị điện máy Nguyễn Kim, chợ Vũng Tàu, bến xe, bệnh viện, Quảng trường Bãi Sau, Công viên Bãi Trước, các danh lam thắng cảnh nổi tiếng…"
+            }],
+            "services": [{
+                "text": "Với thiết kế trẻ trung, thoáng đãng, thiên nhiên tươi mát như tràn ngập trong từng không gian sống tại <strong>Vung Tau Melody</strong>. Bạn và gia đình còn có thể lựa chọn những hướng nhìn lý tưởng theo mỗi căn hộ.",
+                "text": "Đặc biệt, cư dân như chìm vào khung cảnh của vùng biển miền nhiệt đới xinh đẹp với Cổng Chào Nhạc Nước tươi vui rộn rã, hay Khu Vườn Biển Ca được thiết kế sinh động mang đến không gian xanh mát cho chủ nhân."
+            }],
+            "flat": [{
+                "image": [{
+                    "link": "http://www.hungthinhcorp.com.vn/land/attachment/image/lotte.jpg",
+                    "title": "Siêu thị Lotte Mart"
+                }, {
+                    "link": "http://www.hungthinhcorp.com.vn/land/attachment/image/pullman(2).jpg",
+                    "title": "Khách sạn Pullman"
+                }]
+            }],
+            "galary": [{
+                "text": "Với thiết kế trẻ trung, thoáng đãng, thiên nhiên tươi mát như tràn ngập trong từng không gian sống tại <strong>Vung Tau Melody</strong>. Bạn và gia đình còn có thể lựa chọn những hướng nhìn lý tưởng theo mỗi căn hộ."
+            }]
+        }]
+    }, {
+        "name": "melody",
+        "data": [{
+            "info": [{
+                "text": "VŨNG TÀU MELODY: \"TẬN HƯỞNG CUỘC SỐNG TRONG LÀNH BÊN BIỂN\""
+            }],
+            "position": [{
+                "text": "Vị trí Căn Hộ tọa lạc ngay ngã 3 GỐC Hoàng Hoa Thám & Võ Thị Sáu là con đường kết nối NGẮN NHẤT giữa BÃI TRƯỚC và TT BÃI SAU hoàn toàn lý tưởng cho cuộc sống THÀNH PHỐ BIỂN, với thời gian đi bộ chỉ 5 phút đến BÃI SAU,với 4 mặt VIEW BIỂN thoáng mát nằm ngay trung tâm Thành phố nên \"VŨNG TÀU MELODY\" sẽ là địa điểm nghỉ dưỡng mơ ước cho tất cả khách hàng tại căn hộ. <br/> Tọa lạc ngay trung tâm thành phố biển xinh đẹp nên cư dân <strong>Vung Tau Melody</strong> dễ dàng tiếp cận: bến tàu cánh ngầm, TTTM Imperial Plaza, siêu thị Lotte Mart, siêu thị Co.op Mart, siêu thị điện máy Nguyễn Kim, chợ Vũng Tàu, bến xe, bệnh viện, Quảng trường Bãi Sau, Công viên Bãi Trước, các danh lam thắng cảnh nổi tiếng…"
+            }],
+            "services": [{
+                "text": "Với thiết kế trẻ trung, thoáng đãng, thiên nhiên tươi mát như tràn ngập trong từng không gian sống tại <strong>Vung Tau Melody</strong>. Bạn và gia đình còn có thể lựa chọn những hướng nhìn lý tưởng theo mỗi căn hộ.",
+                "text": "Đặc biệt, cư dân như chìm vào khung cảnh của vùng biển miền nhiệt đới xinh đẹp với Cổng Chào Nhạc Nước tươi vui rộn rã, hay Khu Vườn Biển Ca được thiết kế sinh động mang đến không gian xanh mát cho chủ nhân."
+            }],
+            "flat": [{
+                "image": [{
+                    "link": "http://www.hungthinhcorp.com.vn/land/attachment/image/lotte.jpg",
+                    "title": "Siêu thị Lotte Mart"
+                }, {
+                    "link": "http://www.hungthinhcorp.com.vn/land/attachment/image/pullman(2).jpg",
+                    "title": "Khách sạn Pullman"
+                }]
+            }],
+            "galary": [{
+                "text": "Với thiết kế trẻ trung, thoáng đãng, thiên nhiên tươi mát như tràn ngập trong từng không gian sống tại <strong>Vung Tau Melody</strong>. Bạn và gia đình còn có thể lựa chọn những hướng nhìn lý tưởng theo mỗi căn hộ."
+            }]
+        }]
+    }]
+}
