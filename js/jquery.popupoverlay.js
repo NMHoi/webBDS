@@ -19,6 +19,7 @@
     var transitionsupport = null;
     var opentimer;
     var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
+    var fix_bar=0;
     var focusableElementsString = "a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]";
 
     var methods = {
@@ -335,6 +336,7 @@
 
             // Disable background layer scrolling when popup is opened
             if (options.scrolllock) {
+                fix_bar++;
                 $body.css('overflow', 'hidden');
                 if ($body.height() > $window.height()) {
                     $body.css('margin-right', bodymarginright + scrollbarwidth);
@@ -508,6 +510,7 @@
 
                     // Re-enable scrolling of background layer
                     if (options.scrolllock) {
+                        fix_bar--;
                         setTimeout(function() {
                             $body.css({
                                 overflow: 'visible',
@@ -811,7 +814,7 @@
         offsetleft: 0,
         escape: true,
         blur: true,
-        setzindex: true,
+        setzindex: false,
         autozindex: false,
         scrolllock: false,
         closebutton: false,

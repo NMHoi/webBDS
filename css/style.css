@@ -356,19 +356,17 @@ hr {
 }
 
 .main-footer {
-    background-color: #ec523f;
+    background-color: rgba(255,255,255,0.4);
     position: fixed;
-    /*width: 100%;*/
-    /*height: 40px;*/
-    text-align: center;
     padding: 10px;
-    color: white;
-    font-weight: 500;
+    color: red;
+    font-weight: bold;
     z-index: 100001;
     bottom: 20px;
-    -webkit-transition: all 150ms ease-in-out;
+    text-align: center;
+    /*-webkit-transition: all 150ms ease-in-out;
     -moz-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;*/
 }
 
 .scrolled {
@@ -591,18 +589,49 @@ a.toggle-menu {
 }
 
 .services-details {
-    padding: 20px;
+    /*padding: 20px;
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.9);
     min-width: 50%;
     min-height: 50%;
     max-width: 900px;
     width: 100%;
-    overflow: auto;
+    overflow: scroll;
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;*/
+    position: fixed;
+
+    left: 0;
+
+    top: 0;
+
+    margin: 0 auto;
+
+    width: 100%;
+    height: 100%;
+    /*max-width: 900px;*/
+    /*max-height: 100%;*/
+
+    /*height: 400px;*/
+
+    /*background-color: #000;*/
+    background-color: rgba(255, 255, 255, 0.9);
+
+    /*z-index: 3;*/
+
+    overflow-x: hidden;
+
+    overflow-y: scroll;
+
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.services-details img {
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .services-details .close-button {
@@ -611,6 +640,7 @@ a.toggle-menu {
   text-align: right;
   margin-top: -10px;
   margin-bottom: 20px;
+  z-index: 1000 !important;
 }
 
 .services-details .close-button button{
@@ -664,6 +694,10 @@ a.toggle-menu {
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
+    background-image: url("/images/press.png") ;
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+    background-size: 10%;
 }
 
 .service-item .service-content .inner-service {
@@ -962,3 +996,6 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 */
+
+
+/* ================ light box css ===============*/

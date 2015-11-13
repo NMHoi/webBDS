@@ -18,8 +18,7 @@ function processPopUpContent(product) {
             break;
         }
     };
-
-
+    console.log($("[data-rel='lightbox']"));
 }
 
 
@@ -42,9 +41,9 @@ function init() {
         jsonData = JSON.parse(response);
         console.log(jsonData);
         // processPopUpContent("");
+
     });
 }
-
 
 jQuery(document).ready(function($) {
 
@@ -129,12 +128,12 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-
+    
     /************** LightBox *********************/
     $(function() {
-        $('[data-rel="lightbox"]').lightbox();
+        init();
+        $("[data-rel='lightbox']").lightbox();
     });
 
     /************* READ DATA *********************/
-    init();
 });

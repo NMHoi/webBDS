@@ -295,6 +295,7 @@ html[xmlns] .slides {
   top: 0;
   left: 0;
   background: black;
+  z-index: 200000 !important;
   /* IE Fallback (Solid Colour) */
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAIElEQVQ4T2NkYGDYDMRkA8ZRAxhGw4BhNAyA+WAYpAMAIFgLQfO9BoEAAAAASUVORK5CYII=);
   background: rgba(0, 0, 0, 0.7);
@@ -331,7 +332,7 @@ body.blurred > * {
   bottom: 0;
   width: 100%;
   text-align: center;
-  z-index: 1000;
+  z-index: 110000;
   background: #000;
   background: rgba(0, 0, 0, 0.7);
 }
